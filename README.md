@@ -1,9 +1,9 @@
-### GM-Discord
+# GM-Discord
 ![alt text](https://i.imgur.com/63gBEho.png)
 
 Message transfering system. Discord messages to Garry's Mod game server, Garry's Mod game server chat messages to Discord channel. Also is allows Garry's Mod server admins to run ULX admin commands via Discord.
 
-# Installation Guide:
+## Installation Guide:
 1. Go to your web-server and upload send.php and request.php
 `http://yoursite.com/send.php`
 `http://yoursite.com/request.php`
@@ -31,18 +31,18 @@ Copy token then write somewhere.
 9. Go to your Garry's Mod game server and type `Discord` into your game console. Set up all parameters you have into appropriate fields then click `Set` for every parameter you've changed.
 
 
-# About `type` parameter
+### About `type` parameter
 You can choose `Embed` or `Simple` type. I recommend to use `Simple` type.
 
-# About `mode` parameter
+### About `mode` parameter
 Mode is just your gamemode name. For example: `Sandbox` mode will resend all the messages from game chatbox to your discord server. `DarkRP` mode will resend only OOC chat messages. You can add your own mode at the `/lua/autorun/server/discord.lua` file.
 
-# About the `color`
+### About the `color`
 Color is needed with `Embed` type only. It will be message box color.
 
-# Functions
-> `Discord` -- opens settings menu
+### Functions
+`Discord` > opens settings menu
 
-> `Discord_AddAdmin id` -- adds an new admin to GM-Discord. Where id it is the discord user id (right click to user and copy id in developer mode)
+`Discord_AddAdmin id` > adds an new admin to GM-Discord. Where id it is the discord user id (right click to user and copy id in developer mode)
 
-> `Discord_RemoveAdmin id` -- removes an admin from GM-Discord.
+`Discord_RemoveAdmin id` > removes an admin from GM-Discord.
