@@ -1,5 +1,5 @@
 # GM-Discord
-![alt text](https://i.imgur.com/63gBEho.png)
+![alt text](https://i.imgur.com/L22htpB.jpg)
 
 Message transfering system. Discord messages to Garry's Mod game server, Garry's Mod game server chat messages to Discord channel. Also is allows Garry's Mod server admins to run ULX admin commands via Discord.
 
