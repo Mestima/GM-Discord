@@ -5,7 +5,9 @@ Message transfering system. Discord messages to Garry's Mod game server, Garry's
 
 ## Installation Guide:
 1. Go to your web-server and upload send.php and request.php
+
 `http://yoursite.com/send.php`
+
 `http://yoursite.com/request.php`
 
 2. Go to the `GM-Discord/autorun/server/discord.lua` and replace all API links with your website addresses.
@@ -25,7 +27,7 @@ Give it a name like "OOC Chat" or something else. Create a bot user, and reveal 
 Copy token then write somewhere.
 ![alt text](https://i.imgur.com/T9CMjuI.gif)
 
-8. Go back to your application (https://discordapp.com/developers/applications/me) and generate OAuth2 URL. Open generated url in your web browser and invite your discord bot to your discord server. Your bot must have permissions to read and send messages at selected channel. Your discord bot will be offline. It will be working fine.
+8. Go back to your application (`https://discordapp.com/developers/applications/me`) and generate OAuth2 URL. Open generated url in your web browser and invite your discord bot to your discord server. Your bot must have permissions to read and send messages at selected channel. Your discord bot will be offline. It will be working fine.
 ![alt text](https://i.imgur.com/vglOGl1.gif)
 
 9. Go to your Garry's Mod game server and type `Discord` into your game console. Set up all parameters you have into appropriate fields then click `Set` for every parameter you've changed.
@@ -38,7 +40,7 @@ You can choose `Embed` or `Simple` type. I recommend to use `Simple` type.
 Mode is just your gamemode name. For example: `Sandbox` mode will resend all the messages from game chatbox to your discord server. `DarkRP` mode will resend only OOC chat messages. You can add your own mode at the `/lua/autorun/server/discord.lua` file.
 
 ### About the `color`
-Color is needed with `Embed` type only. It will be message box color. I'm using decimal color in this addon, you can use whatever you want (for example: HTML color). Or use decimal color like me `https://convertingcolors.com/decimal-color-65535.html`.
+Color is needed with `Embed` type only. It will be message box color. I'm using decimal color in this addon, you can use whatever you want (for example: HTML color). Or use decimal color like me `https://convertingcolors.com/decimal-color-65535.html`
 
 ### Functions
 - `Discord` > opens settings menu
