@@ -38,7 +38,7 @@ You can choose `Embed` or `Simple` type. I recommend to use `Simple` type.
 Mode is just your gamemode name. For example: `Sandbox` mode will resend all the messages from game chatbox to your discord server. `DarkRP` mode will resend only OOC chat messages. You can add your own mode at the `/lua/autorun/server/discord.lua` file.
 
 ### About the `color`
-Color is needed with `Embed` type only. It will be message box color.
+Color is needed with `Embed` type only. It will be message box color. I'm using decimal color in this addon, you can use whatever you want (for example: HTML color). Or use decimal color like me `https://convertingcolors.com/decimal-color-65535.html`.
 
 ### Functions
 - `Discord` > opens settings menu
