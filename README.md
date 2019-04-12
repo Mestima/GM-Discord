@@ -34,7 +34,7 @@ Copy token then write somewhere.
 
 
 ### About `type` parameter
-You can choose `Embed` or `Simple` type. I recommend to use `Simple` type.
+You can choose `Embed` or `Simple` type. I recommend to use `Simple` type if you don't know what is `Embed`.
 
 ### About `mode` parameter
 Mode is just your gamemode name. For example: `Sandbox` mode will resend all the messages from game chatbox to your discord server. `DarkRP` mode will resend only OOC chat messages. You can add your own mode at the `/lua/autorun/server/discord.lua` file.
