@@ -10,7 +10,7 @@ Message transfering system. Discord messages to Garry's Mod game server, Garry's
 
 - `http://yoursite.com/request.php`
 
-2. Go to the `GM-Discord/autorun/server/discord.lua` and replace all API links with your website addresses.
+2. Go to the `GM-Discord/lua/autorun/server/discord.lua` and replace all API links with your website addresses.
 
 3. Upload the addon to your server.
 
