@@ -41,10 +41,10 @@ Mode is just your gamemode name. For example: `Sandbox` mode will resend all the
 Color is needed with `Embed` type only. It will be message box color.
 
 ### Functions
-`Discord` > opens settings menu
+- `Discord` > opens settings menu
 
-`Discord_AddAdmin id` > adds an new admin to GM-Discord. Where id it is the discord user id (right click to user and copy id in developer mode)
+- `Discord_AddAdmin id` > adds an new admin to GM-Discord. Where id it is the discord user id (right click to user and copy id in developer mode)
 
-`Discord_RemoveAdmin id` > removes an admin from GM-Discord.
+- `Discord_RemoveAdmin id` > removes an admin from GM-Discord.
 
 > Warning! All GM-Discord admins will be allowed to use ALL your ULX commands. !rcon, !ban, !unban etc.
