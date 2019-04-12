@@ -42,7 +42,7 @@ Mode is just your gamemode name. For example: `Sandbox` mode will resend all the
 ### About the `color`
 Color is needed with `Embed` type only. It will be message box color. I'm using decimal color in this addon, you can use whatever you want (for example: HTML color). Or use decimal color like me `https://convertingcolors.com/decimal-color-65535.html`
 
-### Functions
+### Game Console Commands
 - `Discord` > opens settings menu
 
 - `Discord_AddAdmin id` > adds an new admin to GM-Discord. Where id it is the discord user id (right click to user and copy id in developer mode)
