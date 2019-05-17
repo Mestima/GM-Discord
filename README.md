@@ -45,7 +45,7 @@ Color is needed with `Embed` type only. It will be message box color. I'm using 
 ### Game Console Commands
 - `Discord` > opens settings menu
 
-- `Discord_AddAdmin id` > adds an new admin to GM-Discord. Where id it is the discord user id (right click to user and copy id in developer mode)
+- `Discord_AddAdmin id` > adds a new admin to GM-Discord. Where id it is the discord user id (right click to user and copy id in developer mode)
 
 - `Discord_RemoveAdmin id` > removes an admin from GM-Discord.
 
