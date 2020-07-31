@@ -20,6 +20,6 @@
 	$channel	= $_GET['channel'];
 	$token		= $_GET['token'];
 			
-	$result = file_get_contents_utf8("https://discordapp.com/api/channels/" . $channel . "/messages?token=" . $token);
+	$result = file_get_contents_utf8("https://discordapp.com/api/channels/" . $channel . "/messages?token=Bot%20" . $token);
 	echo $result;
 ?>
