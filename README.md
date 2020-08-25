@@ -1,7 +1,15 @@
 # GM-Discord
 ![alt text](https://i.imgur.com/L22htpB.jpg)
 
-Message transfering system. Discord messages to Garry's Mod game server, Garry's Mod game server chat messages to Discord channel. Also it allows Garry's Mod server admins to run ULX admin commands via Discord.
+Discord - [Garry's Mod](https://store.steampowered.com/app/4000) message transfering system.
+
+### Features
+
+- Transfers Discord messages to Garry's Mod game server chat
+
+- Transfers Garry's Mod game server chat messages to Discord channel
+
+- Allows Garry's Mod server admins to run [ULX](https://ulyssesmod.net/downloads.php) commands via Discord
 
 ## Installation Guide:
 1. Go to your web-server and upload send.php and request.php
