@@ -21,6 +21,5 @@
 		)
 	);
 	$context  = stream_context_create($options);
-
 	$result = file_get_contents($_POST["webhook"], false, $context);
 ?>

@@ -12,11 +12,19 @@ Discord - [Garry's Mod](https://store.steampowered.com/app/4000) message transfe
 - Allows Garry's Mod server admins to run [ULX](https://ulyssesmod.net/downloads.php) commands via Discord
 
 ## Installation Guide:
-1. Go to your web-server and upload send.php and request.php
+1. You have to choose only one(!) of the sub-steps below (1.1 OR 1.2)
+
+1.1. (if you want to use php)
+
+Go to your web server and upload `send.php` and `request.php` files from `web/php/` folder. Your web server must support php.
 
 - `http://yoursite.com/send.php`
 
 - `http://yoursite.com/request.php`
+
+1.2. (if you want to use nodejs)
+
+Coming soon.
 
 2. Go to the `GM-Discord/lua/autorun/server/discord.lua` and replace all API links with your website addresses.
 
