@@ -11,10 +11,7 @@
 		http://github.com/Mestima
 */
 
-	if (isset($_POST["content"]) != true || isset($_POST["webhook"]) != true ||
-		$_POST["content"] == "" || $_POST["webhook"] == "") {
-		exit();
-	}
+	if (!isset($_POST["content"]) || !isset($_POST["webhook"])) exit();
 	
 	$options = array(
 		'http' => array(
