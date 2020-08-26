@@ -16,7 +16,11 @@ Discord - [Garry's Mod](https://store.steampowered.com/app/4000) message transfe
 
 1.1. (if you want to use php)
 
-Go to your web server and upload `send.php` and `request.php` files from `web/php/` folder. Your web server must support php.
+Go to your web server and upload `send.php` and `request.php` files from `web/php/` folder
+
+Your web server must support php
+
+Now you have something like this:
 
 - `http://yoursite.com/send.php`
 
@@ -24,7 +28,33 @@ Go to your web server and upload `send.php` and `request.php` files from `web/ph
 
 1.2. (if you want to use nodejs)
 
-Coming soon.
+Go to your server and upload all files from `web/nodejs` directory
+
+Install [NodeJS](https://nodejs.org/)
+
+Go to the uploaded folder directory and run `npm install` command
+
+Open and edit settings at the `config.json` file:
+
+- `port` is nodejs API server port
+
+- `token` is your discord bot token (read below)
+
+- `channel` is you discord channel id (read below)
+
+- `webhook` is your discord webhook link (read below)
+
+- `security` if set to `true`, the server will check webhook, token and channel is trusted or not
+
+- `debug` if set to `true`, the server will print debug information to the console
+
+Run the API server with `npm start` command
+
+Now you have something like this:
+
+- `http://127.0.0.1:8080/send`
+
+- `http://127.0.0.1:8080/request`
 
 2. Go to the `GM-Discord/lua/autorun/server/discord.lua` and replace all API links with your website addresses.
 
