@@ -3,5 +3,6 @@
 	"token": "",
 	"channel": "",
 	"webhook": "",
+	"security": true,
 	"debug": false
 }

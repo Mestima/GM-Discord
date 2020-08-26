@@ -10,6 +10,8 @@ const port = config.port;
 const webhook = config.webhook;
 const channel = config.channel;
 const token = config.token;
+
+const security = config.security;
 const debug = config.debug;
 
 app.post("/send", (req, res) => {
@@ -45,6 +47,18 @@ app.post("/send", (req, res) => {
 });
 
 app.get("/request", (req, res) => {
+	if (security) {
+		const postToken: any = req.query.token;
+		const postChannel: any = req.query.channel;
+		if (channel != postChannel || token != postToken) {
+			const err = `error: unknown token or channel`;
+			if (debug) {
+				console.log(err);
+			}
+			return res.send(err);
+		}
+	}
+
 	fetch(`https://discordapp.com/api/channels/${channel}/messages?token=Bot ${token}`)
 		.then(discordRes => discordRes.json())
 		.then(json => {
