@@ -34,6 +34,8 @@ Install [NodeJS](https://nodejs.org/)
 
 Go to the uploaded folder directory and run `npm install` command
 
+Rename the `config_sample.json` file to `config.json`
+
 Open and edit settings at the `config.json` file:
 
 - `port` is nodejs API server port
