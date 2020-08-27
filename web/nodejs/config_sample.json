@@ -1,8 +1,0 @@
-{
-	"port": 8080,
-	"token": "",
-	"channel": "",
-	"webhook": "",
-	"security": true,
-	"debug": false
-}
