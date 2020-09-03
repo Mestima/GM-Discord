@@ -18,7 +18,7 @@ app.post("/send", (req, res) => {
 	const content: any = req.query.content;
 	const postWebhook: any = req.query.webhook;
 
-	if (webhook != postWebhook) {
+	if (security && webhook != postWebhook) {
 		const err = `error: unknown webhook '${postWebhook}'`;
 		if (debug) {
 			console.log(err);
